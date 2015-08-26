@@ -12,7 +12,7 @@ To build and start the VM that runs the cache:
 
 On each client you want to use the cache:
 
-    $ apt-get install -y squid-deb-cache
+    $ apt-get install -y squid-deb-proxy-client
 
 Each client needs to be on the same network as the VM with the cache. I do this by keeping them both on a private host-only VirtualBox network.
 
